@@ -1,0 +1,120 @@
+body {
+    background-color: #000000;
+    background-image: url(img/fire.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8dada;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: 60% 40%;;
+       
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    margin: 0 20px 0 20px;
+    height: 100px;
+}
+
+#nav h1 {
+    font-size: 50px;
+    font-style: inherit;
+}
+
+#nav i {
+    font-size: 35px;
+    font-style: italic;
+}
+
+#navbar {
+    list-style-type: none;
+    overflow: hidden;      
+}
+
+#navbar li {
+    float: right;
+    color: #000000;
+    text-shadow: #f8dada 1px 1px;     
+}
+
+#navbar li a {
+    display: block;
+    padding: 15px;
+    color:#000000;
+    font-size: 20px;
+    text-shadow: #f8dada 1px 1px;
+    margin: 20px 0px 0 20px;
+}
+
+.block {
+    display: block;
+    background-color: #2b2828;
+    opacity: .7;
+    float: right;
+    width: 300px;
+    margin: 0 50px 0 0;
+    color: #FFF;
+    padding: 15px 30px 20px 30px;
+    height: 550px;
+    width: 400px;
+    
+}
+
+.title {
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-weight: 100;
+    color: #756a58 
+}
+
+/* Contact.html */
+
+.blockContact {
+    display: block;
+    background-color: #2b2828;
+    opacity: .7;
+    float: left;
+    width: 300px;
+    margin: 0 50px 0 100px;
+    color: #FFF;
+    padding: 15px 30px 20px 30px;
+    height: 550px;
+    width: 400px;
+        
+}
+    
+.my-form {
+    padding: 20px;
+}
+
+.my-form input, .my-form textarea {
+    padding: 8px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form button {
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    box-shadow: #fff 0.5px 0.5px;
+    border: none;
+}
